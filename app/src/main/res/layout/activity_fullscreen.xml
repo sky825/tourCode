@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/ThemeOverlay.Mycode.FullscreenContainer"
+    tools:context=".FullscreenActivity">
+
+    <FrameLayout
+        android:id="@+id/div1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="198dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/div1_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="42dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="182dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="162dp"
+                        android:layout_height="28dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/div1_tv6"
+                        android:layout_width="189dp"
+                        android:layout_height="32dp"
+                        android:background="#FFFFFF"
+                        android:fontFamily="@font/font20825"
+                        android:text="2022.03.30 17:46:34"
+                        android:textColor="@color/font_date"
+                        android:textSize="18sp"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Space
+                        android:layout_width="71dp"
+                        android:layout_height="32dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="112dp"
+                        android:layout_weight="1" />
+
+                    <pl.droidsonroids.gif.GifTextView
+                        android:id="@+id/amam"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/animation" />
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="128dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="235dp" />
+
+                <TextView
+                    android:id="@+id/div1_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
