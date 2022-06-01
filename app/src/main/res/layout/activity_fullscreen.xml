@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frag1"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="2400px"
     android:theme="@style/ThemeOverlay.Mycode.FullscreenContainer"
     tools:context=".FullscreenActivity">
 
     <FrameLayout
         android:id="@+id/div1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,13 +30,13 @@
 
                     <Space
                         android:layout_width="198dp"
-                        android:layout_height="40dp"
+                        android:layout_height="1dp"
                         android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/div1_tv1"
                         android:layout_width="wrap_content"
-                        android:layout_height="42dp"
+                        android:layout_height="match_parent"
                         android:layout_weight="1" />
 
                 </LinearLayout>
@@ -49,27 +50,53 @@
 
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="182dp" />
+                    android:layout_height="144dp" />
+
+                <EditText
+                    android:id="@+id/txt_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="sans-serif"
+                    android:inputType="textPersonName"
+                    android:text="189****2238的动态行程卡"
+                    android:textAlignment="center"
+                    android:textColor="#47464B"
+                    android:textFontWeight="@android:integer/config_longAnimTime"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="normal"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="37dp"
+                    android:layout_height="38dp"
                     android:orientation="horizontal">
 
-                    <Space
-                        android:layout_width="162dp"
-                        android:layout_height="28dp"
-                        android:layout_weight="1" />
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="164dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="更新于："
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/font_date"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/div1_tv6"
-                        android:layout_width="189dp"
-                        android:layout_height="32dp"
+                        android:layout_width="204dp"
+                        android:layout_height="match_parent"
                         android:background="#FFFFFF"
-                        android:fontFamily="@font/font20825"
+                        android:fontFamily="sans-serif"
                         android:text="2022.03.30 17:46:34"
                         android:textColor="@color/font_date"
                         android:textSize="18sp"
+                        android:textStyle="bold"
                         tools:ignore="TextContrastCheck" />
 
                     <Space
@@ -80,7 +107,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="188dp"
                     android:orientation="horizontal">
 
                     <Space
@@ -100,9 +127,62 @@
                         android:layout_weight="1" />
                 </LinearLayout>
 
+                <EditText
+                    android:id="@+id/txt_addr"
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:background="@android:color/transparent"
+                    android:duplicateParentState="false"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start|top"
+                    android:paddingStart="41dp"
+                    android:paddingEnd="41dp"
+                    android:text="贵州省"
+                    android:textColor="#47464B"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
                 <Space
                     android:layout_width="match_parent"
-                    android:layout_height="235dp" />
+                    android:layout_height="138dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/btn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/btn0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/btn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:id="@+id/btn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
 
                 <TextView
                     android:id="@+id/div1_tv2"

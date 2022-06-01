@@ -19,8 +19,8 @@
     <style name="Theme.Mycode.Fullscreen" parent="Theme.Mycode">
         <item name="android:actionBarStyle">@style/Widget.Theme.Mycode.ActionBar.Fullscreen</item>
 
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@drawable/bg_0</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowBackground">@color/cardview_light_background</item>
     </style>
 
     <style name="ThemeOverlay.Mycode.FullscreenContainer" parent="">
